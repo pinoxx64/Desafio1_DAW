@@ -5,3 +5,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
