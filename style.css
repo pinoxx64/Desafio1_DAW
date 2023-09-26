@@ -12,5 +12,25 @@ ul a {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
+    gap: 1rem;
+}
+
+ul button {
+    border: none;
+    width: 6rem;
+    height: 3rem;
+
+    background-color: lightskyblue;
+
+    border-radius: 32rem;
+
+    cursor: pointer;
+}
+
+ul button:hover {
+    background-color: deepskyblue;
+
+    box-shadow: 5px 5px 10px gainsboro;
 }
