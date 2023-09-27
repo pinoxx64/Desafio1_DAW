@@ -27,3 +27,14 @@ header nav ul li a {
     color: #fff; /* Texto de enlace en color blanco */
     font-weight: bold; /* Texto de enlace en negrita */
 }
+.imagen-container {
+    display: flex; /* Mostrar las imágenes en línea */
+    justify-content: center; /* Centrar horizontalmente las imágenes */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.imagen-container img {
+    width: 300px; /* Ancho de las imágenes */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin: 0 10px; /* Margen entre las imágenes */
+}
