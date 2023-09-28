@@ -1,5 +1,10 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     padding: 0;
     margin: 0;
@@ -15,10 +20,14 @@ main {
     margin-left: 1em;
 }
 
-li {
-    list-style-type: circle;
+#logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
+/* Estilos para el encabezado (header) */
 header {
     background-color: rgb(71, 24, 71);
     color: white;
@@ -28,17 +37,88 @@ header {
     font-style: italic;
 }
 
-#logo { 
-    height: 50px;
-    width: 50px;
-    margin-right: 1em;
-    margin-left: 1em;
+/* Estilos para la navegación en el encabezado */
+header nav ul {
+    list-style-type: none;
+    /* Quita los puntos de la lista */
+    padding: 0;
+    /* Quita el espaciado interno de la lista */
 }
 
+header nav ul li {
+    display: inline;
+    /* Los elementos de la lista se muestran en línea */
+    margin-right: 20px;
+    /* Margen derecho entre los elementos de la lista */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    /* Quita la subrayado de los enlaces */
+    color: #fff;
+    /* Texto de enlace en color blanco */
+    font-weight: bold;
+    /* Texto de enlace en negrita */
+}
+
+.imagen-container {
+    display: flex;
+    /* Mostrar las imágenes en línea */
+    justify-content: center;
+    /* Centrar horizontalmente las imágenes */
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+.imagen-container img {
+    width: 300px;
+    /* Ancho de las imágenes */
+    height: auto;
+    /* Mantener la proporción de aspecto */
+    margin: 0 10px;
+    /* Margen entre las imágenes */
+}
+
+/* Estilos para los botones */
+
+ul.miembros a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.miembros {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+ul.miembros button {
+    border: none;
+    width: 6rem;
+    height: 3rem;
+
+    background-color: lightskyblue;
+
+    border-radius: 32rem;
+
+    cursor: pointer;
+}
+
+ul.miembros button:hover {
+    background-color: deepskyblue;
+
+    box-shadow: 5px 5px 10px gainsboro;
+}
+
+/* Estilos para el footer */
 footer {
     color: white;
     background-color: rgb(71, 24, 71);
     text-align: center;
     padding: 0.1em 0 0.1em;
     font-weight: 300;
+
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
