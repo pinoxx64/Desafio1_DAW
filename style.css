@@ -1,0 +1,10 @@
+p:first-child {
+    color: red;       /* Color rojo */
+    font-size: 30px;  /* Tamaño de fuente 30 */
+}
+
+/* Estilo para la segunda frase */
+p:nth-of-type(2) {
+    color: purple;    /* Color morado */
+    font-size: 15px;  /* Tamaño de fuente 15 */
+}
