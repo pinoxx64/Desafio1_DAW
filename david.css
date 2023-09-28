@@ -62,14 +62,9 @@ main{
     padding-bottom: 10px;
 }
 
-.about-us h2,.our-services h2{
+.about-us h2{
     margin-bottom: 10px;
 }
-
-.our-services ul{
-    margin-left: 30px;
-}
-
 
 footer{
     height: 15%;
